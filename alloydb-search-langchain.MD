@@ -118,8 +118,3 @@ async def ask_question(request: QueryRequest):
 * **AlloyDB Efficiency:** By using `as_retriever()`, LangChain handles the complex SQL vector similarity queries (using the `<=>` operator in AlloyDB) behind the scenes.
 * **State Management:** LangGraph allows you to add complex logic later, such as "re-writing" the question if no relevant context is found in AlloyDB.
 
-[Building a RAG Agent with LangGraph and FastAPI](https://www.youtube.com/watch?v=t209A887UpY)
-
-This video provides a deep dive into integrating LangGraph with a FastAPI backend, specifically covering session management and vector database integration.
-
-Would you like me to show you how to add **Chat History** to this graph so the LLM remembers previous questions?
